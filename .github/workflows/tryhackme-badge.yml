@@ -1,0 +1,25 @@
+name: TryHackMe Update Badge
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  tryhackme-badge-update:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch latest TryHackMe badge
+        uses: p4p1/tryhackme-badge-workflow@main
+        with:
+          username: "Satulkola"
+          user_public_id: "3322938"
+          image_path: "./assets/thm_propic.png"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
