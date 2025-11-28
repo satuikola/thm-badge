@@ -22,4 +22,5 @@ jobs:
           username: "Satulkola"
           user_public_id: "3322938"
           image_path: "./assets/thm_propic.png"
+          use_static_image: "false"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
