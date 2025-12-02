@@ -1,6 +1,3 @@
-# thm-badge
-My TryHackMe progress and learning journey
-
-## TryHackMe Badge
-
-![TryHackMe badge](https://raw.githubusercontent.com/SatuIkola/thm-badge/main/assets/thm_propic.png)
+<p align="center">
+  <img src="https://tryhackme-badges.s3.amazonaws.com/SatuIkola.png" alt="TryHackMe Badge" />
+</p>
